@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-customLg: 71rem;
+  --breakpoint-custom: 52rem;
+  --width-custom: 1140px;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    font-family: "Inter", sans-serif !important;
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.search-bar {
+  border: 0;
+  outline: none;
+  background: white;
+  text-align: center;
+  border-radius: 9999px;
+  flex: 1;
+}
+
+.search-bar:focus {
+  box-shadow: none;
+}
+
+.nav:hover {
+  background-color: #e5ebee;
+  border-radius: 10px;
+}
