@@ -1,8 +1,8 @@
-import Header from "./components/Header";
-import SideNav from "./components/SideNav";
-import MainContainer from "./components/MainContainer";
+import { Header } from "./components/Header";
+import { SideNav } from "./components/SideNav";
+import { MainContainer } from "./components/MainContainer";
 
-function App() {
+export const App = () => {
   return (
     <>
       <Header />
@@ -12,6 +12,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;

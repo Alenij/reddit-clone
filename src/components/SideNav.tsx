@@ -15,7 +15,7 @@ import jobs from "../assets/jobs.svg";
 import sfLogo from "../assets/sf-logo.jfif";
 import hamburger from "../assets/hamburger.svg";
 
-function SideNav() {
+export const SideNav = () => {
   return (
     <>
       <div className="hidden customLg:block">
@@ -145,6 +145,4 @@ function SideNav() {
       </div>
     </>
   );
-}
-
-export default SideNav;
+};

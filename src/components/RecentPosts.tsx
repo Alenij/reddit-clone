@@ -3,7 +3,7 @@ import randomPic from "../assets/random-pic.jfif";
 import igPic from "../assets/ig-screenshoot.jfif";
 import ayra from "../assets/ayra.jfif";
 
-function RecentPosts() {
+export const RecentPosts = () => {
   return (
     <>
       <div className="bg-gray-100 mt-7 w-[270px] shrink-0 rounded-2xl hidden custom:block">
@@ -236,6 +236,4 @@ function RecentPosts() {
       </div>
     </>
   );
-}
-
-export default RecentPosts;
+};

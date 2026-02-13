@@ -8,7 +8,7 @@ import { PlusCircleIcon } from "@heroicons/react/24/outline";
 import hamburger from "../assets/hamburger.svg";
 import stack from "../assets/stack.svg";
 
-function Header() {
+export const Header = () => {
   return (
     <>
       <div className=" w-full border-y pb-1 border-gray-300 px-3">
@@ -66,6 +66,4 @@ function Header() {
       </div>
     </>
   );
-}
-
-export default Header;
+};
